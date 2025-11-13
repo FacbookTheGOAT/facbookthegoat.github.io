@@ -156,6 +156,7 @@
 .container {
 	padding: 5px;
 	border-bottom: 1px solid #d5b8bd;
+	border-top: 1px solid #d5b8bd;
 	margin: 0px auto auto;
 	background-color: #fff;
 	min-height: 400px;
