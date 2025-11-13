@@ -1229,8 +1229,8 @@ a:hover {
 	height: 46px;
 	position: relative;
 	top: -14px;
-	width: 25vw;
 	object-fit: contain;
+	width: calc(25vw - 10px);
 }
 
 .blog-meta {
