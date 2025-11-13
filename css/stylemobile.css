@@ -1230,8 +1230,8 @@ a:hover {
 	position: relative;
 	top: -14px;
 	object-fit: contain;
-	margin-right: 5px;
-	border-left 0px solid #fff !important;
+	margin-left: 5px;
+	border-right 0px solid #fff !important;
 	width: calc(25vw - 10px);
 }
 
