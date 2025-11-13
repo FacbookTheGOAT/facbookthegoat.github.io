@@ -1288,7 +1288,6 @@ body {
 }
 
 .header-buttons a:last-of-type {
-	border-right: 0px solid #d3d3d3;
 	background: linear-gradient(90deg, #fff 59%, #fff0)
 }
 
