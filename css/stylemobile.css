@@ -400,11 +400,10 @@
 
 .dreamy-textbox .post {
 	border-top: 0px solid black;
-	width: 350px
+	width: 100%;
 }
 
 .dreamy-textbox .post .post-body {
-	width: auto;
 	margin-left: 40px
 }
 
@@ -988,17 +987,17 @@ a:hover {
 }
 
 .post .profile-picture {
-	width: 30px;
-	height: 30px;
+	width: 50px;
+	height: 50px;
 	display: inline-block;
 	margin-top: 8px
 }
 
 .post-body {
 	display: inline-block;
-	width: 405px;
+	width: calc(100% - 67px);
 	margin-left: 8px;
-	vertical-align: top
+	vertical-align: top;
 }
 
 .notification {
@@ -1712,7 +1711,7 @@ input[type=submit]:active {
 
 .post-text {
 	margin-top: 3px;
-	max-width: 100%
+	max-width: calc(60vw);
 }
 
 .pagination-elements {
@@ -1741,6 +1740,7 @@ input[type=submit]:active {
 .post-metadata {
 	background-color: #b9759e;
 	background-image: linear-gradient(45deg, #fff, #fff 6px, #fae2e2 6px);
+	margin-left: 2px;
 	color: #000;
 	padding: 2px 3px 1px 12px;
 	border: 1px solid #d5b8bd;
@@ -2031,7 +2031,7 @@ h6 {
 }
 
 .post {
-	width: 450px
+	width: 100%;
 }
 
 .replies .post {
@@ -2119,9 +2119,9 @@ li.selected:before {
 	left: 0;
 	display: block;
 	position: absolute;
-	background-size: 80%;
+	background-size: 100%;
 	background-position: right;
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 	opacity: .3;
 	pointer-events: none
 }
