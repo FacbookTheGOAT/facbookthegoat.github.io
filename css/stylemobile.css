@@ -159,7 +159,6 @@
 	border-top: 1px solid #d5b8bd;
 	margin: 0px auto auto;
 	background-color: #fff;
-	min-height: 400px;
 	position: relative;
 	box-shadow: 0 0 20px #d9c2c2
 }
@@ -672,7 +671,7 @@
 .container:after {
 	position: absolute;
 	/* width: 512px; */
-	height: calc(100% - 63px);
+	height: calc(20% - 63px);
 	top: 63px;
 	opacity: .4;
 	left: 0;
@@ -774,20 +773,20 @@ form {
 }
 
 .dreamy-textbox {
-	width: 83%;
+	width: calc(100% - 14px);
 	display: inline-block;
 	vertical-align: top;
-	margin-left: 60px;
-	margin-top: 0;
+	margin-left: 0px;
+	margin-top: 14px;
 	padding: 8px 3px 8px 8px;
 	font-family: crayon;
 	color: #4e4e4e;
-	background-image: url(/new_asset/notebook.png);
+	background-image: url(../img/notebook.png);
 	background-size: 320px;
 	border: 1px solid #d3d3d3;
 	position: relative;
 	bottom: 8px;
-	background-position-y: 116px
+	background-position-y: 115px
 }
 
 .posts {

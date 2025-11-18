@@ -31,8 +31,8 @@
                 <div class="inline-block mt-5" style="float: right;">
                     <div class="cd-component">
                         <div class="header-buttons">
+                            <a href="https://hjonk.me/search" class="no-underline">[profile]</a>
                             <a href="https://hjonk.me/search" class="no-underline">[search]</a>
-                            <a href="https://hjonk.me/search" class="no-underline">[store]</a>
                             <a href="https://hjonk.me/search" class="no-underline">[settings]</a>
                         </div>
                     </div>
@@ -54,9 +54,56 @@
             </span>
         </div>
 
-        <div class="split">
-            <div class="column flex-2" style="margin-top:-5px;">
+        <div class="split" style="margin-bottom: -8px;">
+            <div class="column" style="margin-top: -4px;">
+                <div class="section-header feed-header-section">
+                    <span class="wide">
+                        <b>FEED</b>
+                        ..//
+                    </span>
+                    <br>
+                    <span class="caption inline-block mb-5">
+                        <img class="icon mr-5" src="img/barcodeS.png">
+                        <b>
+                            <span class="js_otherPeopleCount">6</span>
+                            people are currently viewing the feed.
+                        </b>
+                    </span>
+                    <br>
+                </div>
 
+                <form class="create-post-form comment-form" enctype="multipart/form-data" method="POST" action="#">
+                    <div class="dreamy-textbox">
+                        <textarea class="js_createPostTextbox" placeholder="today i(phone)..."  name="content"></textarea>
+                        <div class="font-hotfix">
+                            <div class="inline-block float-right mb-1">
+                                <span class="characters-left mr-5">
+                                    <b>
+                                        <b class="js_charactersLeft">500</b>
+                                    characters left
+                                    </b>
+                                </span>
+
+                                <button class="align-top add-attachment" style="margin-top: -1px;" type="button" title="Attachment">
+                                    <img class="icon" src="img/attach.png">
+                                </button>
+
+                                <button class="align-top emoticon-add" style="margin-top: -1px;" type="button">
+                                    <img class="icon" src="img/emotion_happy.png">
+                                </button>
+
+                                <!-- <ul></ul> ADD LATER -->
+                                <button class="primary create-button js_createPost" title="Post">post</button>
+                                <!-- <div></div> ADD LATER -->
+                            </div>
+
+                        </div>
+                    </div>
+                </form>
+
+                
+
+                
             </div>
         </div>
 
